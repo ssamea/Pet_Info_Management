@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel= "stylesheet" type="text/css" href="resources/register.css">
+<meta charset="EUC-KR">
+<title>login</title>
+
+</head>
+<body>
+
+ <nav id="topMenu" >
+                <ul>
+                        <li><a class="menuLink" href="https://github.com/ssamea">About us</a></li>
+                        <li><a class="menuLink" href="#">contact us</a></li>
+                </ul>
+</nav>
+
+<h2> 로그인</h2>
+<form action="http://localhost:8080/JinSungMin_reg/MemberServlet?key=login" method="post">
+<table width="250" border="1" >
+ <tr>
+    <td>아이디</td>
+    <td><input type="text" name="root_id" size="10" ></td>
+</tr>
+
+ <tr>
+    <td>패스워드</td>
+    <td><input type="password" name="root_passwd" size="10" ></td>
+</tr>
+
+<tr>
+    <td colspan="2">
+     <input type="submit" name="submit" value="login">
+</tr>
+
+</table>
+</form>
+
+</body>
+</html>
